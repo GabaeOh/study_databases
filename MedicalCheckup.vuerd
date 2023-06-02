@@ -139,29 +139,6 @@
             "id": "776b9b58-923b-409a-b339-e09dbe0df4d4"
           },
           {
-            "name": "REMEDICAL CHECK ID",
-            "comment": "유니크 ID",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 143.578125,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "ff78dde6-1493-4fc6-9e3e-b3c3d21a3ffd"
-          },
-          {
             "name": "GENDER CODE_ID",
             "comment": "유니크 ID",
             "dataType": "VARCHAR",
@@ -235,7 +212,7 @@
           "active": false,
           "left": 483,
           "top": 435,
-          "zIndex": 3,
+          "zIndex": 9,
           "widthName": 123.3544921875,
           "widthComment": 70.61181640625
         },
@@ -684,7 +661,7 @@
             "776b9b58-923b-409a-b339-e09dbe0df4d4"
           ],
           "x": 918.18505859375,
-          "y": 551.5,
+          "y": 541.25,
           "direction": "right"
         },
         "constraintName": "fk_result code_to_medicalcheckup",
@@ -736,7 +713,7 @@
             "56b36a73-a211-42a0-bc66-8b178c6fff53"
           ],
           "x": 483,
-          "y": 551.5,
+          "y": 541.25,
           "direction": "left"
         },
         "constraintName": "fk_heght_weight_code_to_medicalcheckup",
@@ -762,7 +739,7 @@
             "0e51be54-e348-4a10-9bd6-a596657263c3"
           ],
           "x": 700.592529296875,
-          "y": 668,
+          "y": 647.5,
           "direction": "bottom"
         },
         "constraintName": "fk_blood_to_medicalcheckup",
