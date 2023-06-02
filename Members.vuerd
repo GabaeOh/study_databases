@@ -259,8 +259,8 @@
         "id": "624b5e14-d6ff-490a-aec9-a575a13a2c9f"
       },
       {
-        "name": "MEMBERS_E-MAIL",
-        "comment": "회원_이메일",
+        "name": "MEMBERS_LOGIN",
+        "comment": "회원_로그인",
         "columns": [
           {
             "name": "E-MAIL",
@@ -313,8 +313,8 @@
           "active": false,
           "left": 544,
           "top": 300,
-          "zIndex": 106,
-          "widthName": 118.3017578125,
+          "zIndex": 110,
+          "widthName": 115.41357421875,
           "widthComment": 74.22998046875
         },
         "visible": true,
