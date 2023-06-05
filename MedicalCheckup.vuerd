@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -108,
-    "scrollLeft": -32,
+    "scrollTop": -53,
+    "scrollLeft": -382,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -49,7 +49,7 @@
           {
             "name": "MEDICALCHECKUP_ID",
             "comment": "유니크ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 143.58447265625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "51a190b0-aca1-4684-9c9e-872ac8b8ed51"
@@ -72,13 +72,13 @@
           {
             "name": "NAME",
             "comment": "이름",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "5f079052-1a17-464c-8bdd-04ce742d4beb"
@@ -101,7 +101,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -118,7 +118,7 @@
           {
             "name": "RESULR CODE_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 116.13720703125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "776b9b58-923b-409a-b339-e09dbe0df4d4"
@@ -141,7 +141,7 @@
           {
             "name": "GENDER CODE_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -156,7 +156,7 @@
               "pfk": false,
               "widthName": 119.01904296875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "f3bcc759-66f7-4250-8028-15a6a48b29e5"
@@ -170,7 +170,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -193,7 +193,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -208,7 +208,7 @@
             "id": "6586fbfb-5b70-4d33-9dd2-2357f0808694"
           },
           {
-            "name": "BLOOD PRESUURE",
+            "name": "BLOOD_PRESUURE",
             "comment": "혈압",
             "dataType": "INTEGER",
             "default": "",
@@ -216,14 +216,14 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 123.36083984375,
+              "widthName": 126.97900390625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -231,7 +231,7 @@
             "id": "0e9bf092-f271-492e-a84d-7557861eef29"
           },
           {
-            "name": "BLOOD SUGAR",
+            "name": "BLOOD_SUGAR",
             "comment": "혈당",
             "dataType": "INTEGER",
             "default": "",
@@ -239,14 +239,14 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 97.3544921875,
+              "widthName": 100.97265625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -256,9 +256,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 483,
+          "left": 482,
           "top": 435,
-          "zIndex": 122,
+          "zIndex": 64,
           "widthName": 123.3544921875,
           "widthComment": 70.61181640625
         },
@@ -266,13 +266,13 @@
         "id": "23174167-243f-447c-9046-5a2d61adcde6"
       },
       {
-        "name": "RESULT CODE",
+        "name": "RESULT_CODE",
         "comment": "검진 결과 ",
         "columns": [
           {
-            "name": "RESULR CODE_ID",
+            "name": "RESULR_CODE_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -285,9 +285,9 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 116.13720703125,
+              "widthName": 119.75537109375,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "4f223947-fd82-49f8-9292-975819bf1565"
@@ -295,13 +295,13 @@
           {
             "name": "RESULT",
             "comment": "결과 ",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -310,7 +310,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "e3f1a600-33d0-41bc-a87f-46eb700a689c"
@@ -318,13 +318,13 @@
           {
             "name": "MAINTENANCE",
             "comment": "유지 방안",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(500)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -333,15 +333,15 @@
               "pfk": false,
               "widthName": 96.6181640625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "a25b0322-f1e4-4bd5-8435-aef2fe853254"
           },
           {
-            "name": "REMEDICAL CHECK ID",
+            "name": "REMEDICAL_CHECK_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -354,9 +354,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 143.578125,
+              "widthName": 150.814453125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "2d4d7362-dbdf-4a44-a9b0-b847e9331bcf"
@@ -364,10 +364,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 999.3328,
-          "top": 427.6672,
-          "zIndex": 78,
-          "widthName": 93.4951171875,
+          "left": 1040.7613,
+          "top": 350.5242,
+          "zIndex": 79,
+          "widthName": 97.11328125,
           "widthComment": 61.2236328125
         },
         "visible": true,
@@ -378,9 +378,9 @@
         "comment": "재검진 항목",
         "columns": [
           {
-            "name": "REMEDICAL CHECK ID",
+            "name": "REMEDICAL_CHECK_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -393,32 +393,32 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 143.578125,
+              "widthName": 150.814453125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "26ffcedb-61c5-4df7-86a3-052c4889add7"
           },
           {
-            "name": "REMEDICAL CHECKUP",
+            "name": "REMEDICAL_CHECKUP",
             "comment": "재검진항목",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 145.025390625,
+              "widthName": 148.6435546875,
               "widthComment": 67,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "9cfd2424-86d0-4b93-8d15-15c285808020"
@@ -428,7 +428,7 @@
           "active": false,
           "left": 973.7776,
           "top": 733.8055,
-          "zIndex": 77,
+          "zIndex": 75,
           "widthName": 193.4326171875,
           "widthComment": 70.61181640625
         },
@@ -436,13 +436,13 @@
         "id": "f8f2b0c9-e949-402a-ad1c-77d7bae52686"
       },
       {
-        "name": "GENDER CODE",
+        "name": "GENDER_CODE",
         "comment": "성별",
         "columns": [
           {
             "name": "GENDER CODE_ID",
             "comment": "유니크 ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -457,7 +457,7 @@
               "pfk": false,
               "widthName": 119.01904296875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "be101395-6d6c-407c-afed-5b1aa16d00d3"
@@ -465,13 +465,13 @@
           {
             "name": "GENDER",
             "comment": "성별",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -480,7 +480,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "fa8e26a6-4c22-426f-886d-c0d29ca21ed1"
@@ -490,8 +490,8 @@
           "active": false,
           "left": 735,
           "top": 181,
-          "zIndex": 1,
-          "widthName": 98.7890625,
+          "zIndex": 67,
+          "widthName": 102.4072265625,
           "widthComment": 60
         },
         "visible": true,
@@ -508,7 +508,7 @@
           "active": false,
           "left": 77.22222222222197,
           "top": 163.44444444444434,
-          "zIndex": 88,
+          "zIndex": 4,
           "width": 330,
           "height": 211
         },
@@ -527,8 +527,8 @@
           "columnIds": [
             "4f223947-fd82-49f8-9292-975819bf1565"
           ],
-          "x": 999.3328,
-          "y": 503.1672,
+          "x": 1040.7613,
+          "y": 426.0242,
           "direction": "left"
         },
         "end": {
@@ -536,7 +536,7 @@
           "columnIds": [
             "776b9b58-923b-409a-b339-e09dbe0df4d4"
           ],
-          "x": 918.18505859375,
+          "x": 947.533203125,
           "y": 561.75,
           "direction": "right"
         },
@@ -562,7 +562,7 @@
           "columnIds": [
             "f3bcc759-66f7-4250-8028-15a6a48b29e5"
           ],
-          "x": 700.592529296875,
+          "x": 714.7666015625,
           "y": 435,
           "direction": "top"
         },
@@ -579,7 +579,7 @@
           "columnIds": [
             "26ffcedb-61c5-4df7-86a3-052c4889add7"
           ],
-          "x": 1195.59058828125,
+          "x": 1210.0442015625,
           "y": 733.8055,
           "direction": "top"
         },
@@ -588,8 +588,8 @@
           "columnIds": [
             "2d4d7362-dbdf-4a44-a9b0-b847e9331bcf"
           ],
-          "x": 1216.9221554687501,
-          "y": 578.6672,
+          "x": 1277.142891796875,
+          "y": 501.5242,
           "direction": "bottom"
         },
         "constraintName": "fk_remedical_checkup_code_to_result code",
