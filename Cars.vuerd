@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -350,
-    "scrollLeft": -415,
+    "scrollTop": -211,
+    "scrollLeft": -130,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -116,7 +116,7 @@
             "id": "ac1f54dc-efc7-4dde-a8e5-3ca2bf872424"
           },
           {
-            "name": "COMPANY NAME_CODE_ID",
+            "name": "COMPANY_NAME_CODE_ID",
             "comment": "유니크 ID",
             "dataType": "VARCHAR(50)",
             "default": "",
@@ -131,7 +131,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 172.955078125,
+              "widthName": 176.5732421875,
               "widthComment": 60,
               "widthDataType": 87.71875,
               "widthDefault": 60
@@ -143,7 +143,7 @@
           "active": false,
           "left": 227.75,
           "top": 732,
-          "zIndex": 48,
+          "zIndex": 63,
           "widthName": 60,
           "widthComment": 60
         },
@@ -360,7 +360,7 @@
         "id": "57a220f2-6e70-476d-b327-289978f9f578"
       },
       {
-        "name": "CARS_OPTION CODE",
+        "name": "CARS_OPTION_CODE",
         "comment": "옵션 ",
         "columns": [
           {
@@ -414,8 +414,8 @@
           "active": false,
           "left": 165.1109,
           "top": 253.4445,
-          "zIndex": 41,
-          "widthName": 136.3544921875,
+          "zIndex": 60,
+          "widthName": 139.97265625,
           "widthComment": 60
         },
         "visible": true,
@@ -451,7 +451,7 @@
           "columnIds": [
             "dae504b9-b9a1-4f89-8f42-320811db9d39"
           ],
-          "x": 471.5869140625,
+          "x": 473.39599609375,
           "y": 732,
           "direction": "top"
         },
@@ -538,7 +538,7 @@
           "columnIds": [
             "ae53af46-25fa-4fd0-ac64-65b15bc74d3e"
           ],
-          "x": 471.5869140625,
+          "x": 473.39599609375,
           "y": 883,
           "direction": "bottom"
         },
