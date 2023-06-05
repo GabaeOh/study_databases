@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -279,
-    "scrollLeft": -718,
+    "scrollTop": 0,
+    "scrollLeft": -159,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -139,7 +139,7 @@
             "id": "efaaf3f1-7257-43b2-bba0-8ac7dad47064"
           },
           {
-            "name": "GENDER_CODE_I",
+            "name": "GENDER_CODE_ID",
             "comment": "유니크 ID",
             "dataType": "VARCHAR(50)",
             "default": "",
@@ -154,7 +154,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 113.2490234375,
+              "widthName": 122.63720703125,
               "widthComment": 60,
               "widthDataType": 87.71875,
               "widthDefault": 60
@@ -189,7 +189,7 @@
           "active": false,
           "left": 741,
           "top": 477,
-          "zIndex": 69,
+          "zIndex": 87,
           "widthName": 67.72998046875,
           "widthComment": 60
         },
