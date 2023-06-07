@@ -1,3 +1,5 @@
+-- ref= https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where
+
 
 -- 'USA', 'Germany' 아닌 국가 추출
 SELECT * FROM Customers
