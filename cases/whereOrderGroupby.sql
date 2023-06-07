@@ -1,7 +1,7 @@
 -- ref = https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where
 -- - 조건 : EmployeeID가 7, 9 직원에 각각 주문 갯수
 SELECT COUNT(*), EmployeeID
-FROM ORDERS
+FROM Orders
 WHERE EmployeeID  in(7, 9)
 GROUP BY EmployeeID ;
 
