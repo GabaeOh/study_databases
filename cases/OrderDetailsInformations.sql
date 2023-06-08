@@ -7,5 +7,7 @@ FROM Orders AS T_OR
 	ON T_OR.CustomerID = T_CUS.CustomerID
     INNER JOIN OrderDetails AS T_ORD
     ON T_OR.OrderID = T_ORD.OrderID
+	INNER JOIN Products as T_PRO
+    ON T_ORD.ProductID = T_PRO.ProductID;
     
    --  Number of Records: 2155
