@@ -13,3 +13,14 @@ GROUP BY T_EM.EmployeeID) AS T_CASE ;
 -- Number of Records: 1
 -- MAX_ORDER	LastName	FirstName
 -- 156	Davolio	Nancy
+
+
+-- 강사님의 예시본
+-- SELECT MAX(T_INNER.CNT), T_INNER.EmployeeID, T_INNER.LastName
+-- FROM(
+-- SELECT COUNT(*) AS CNT, T_EMPS.EmployeeID, T_EMPS.LastName
+-- FROM Employees AS T_EMPS
+-- 	INNER JOIN Orders AS T_ORDS
+--     ON T_EMPS.EmployeeID = T_ORDS.EmployeeID
+-- GROUP BY T_EMPS.EmployeeID
+--  ) AS T_INNER;      
