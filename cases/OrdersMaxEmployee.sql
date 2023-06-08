@@ -3,7 +3,7 @@
 
 SELECT MAX(T_CASE.CNT_Order) AS MAX_ORDER, LastName, FirstName
 FROM 
-(SELECT COUNT(T_EM.EmployeeID) AS CNT_Order , MAX(T_EM.EmployeeID) AS MAX_ORDER 
+(SELECT COUNT(T_EM.EmployeeID) AS CNT_Order , MAX(T_EM.EmployeeID) AS MAX_ORDER, LastName, FirstName
 FROM 
 	Employees AS T_EM
 	INNER JOIN 	Orders AS T_OR
